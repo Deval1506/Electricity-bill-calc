@@ -40,7 +40,7 @@ class SettingsFragment : Fragment() {
     private fun loadCurrentRate() {
         val rate = DataStore.getRate(requireContext())
         binding.etPrice.setText(rate.toString())
-        binding.tvCurrentRate.text = "₹ $rate per unit"
+        binding.tvCurrentRate.setText("₹ $rate per unit")
     }
 
     private fun setupListeners() {
@@ -51,7 +51,7 @@ class SettingsFragment : Fragment() {
                 return@setOnClickListener
             }
             DataStore.saveRate(requireContext(), p)
-            binding.tvCurrentRate.text = "₹ $p per unit"
+            binding.tvCurrentRate.setText("₹ $p per unit")
             Toast.makeText(requireContext(), "Rate saved!", Toast.LENGTH_SHORT).show()
         }
 
