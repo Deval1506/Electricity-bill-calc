@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent yellow (light & dark share same value, dark slightly brighter) -->
+    <color name="accent">#E8A900</color>
+    <color name="accent_dark">#F5C518</color>
+    <color name="accent_bg">#FDF3D0</color>
+    <color name="accent_bg_dark">#2A2410</color>
+
+    <!-- Light surface palette -->
+    <color name="bg0_light">#FFFFFF</color>
+    <color name="bg1_light">#F4F3EF</color>
+    <color name="bg2_light">#EAE9E4</color>
+    <color name="text0_light">#141412</color>
+    <color name="text1_light">#5A5A56</color>
+
+    <!-- Dark surface palette -->
+    <color name="bg0_dark">#1E1E1C</color>
+    <color name="bg1_dark">#272725</color>
+    <color name="bg2_dark">#161614</color>
+    <color name="text0_dark">#F0EFE9</color>
+    <color name="text1_dark">#9A9A94</color>
+
+    <!-- Semantic -->
+    <color name="error_red">#C0392B</color>
+    <color name="error_red_faint">#4DC0392B</color>
+
+    <!-- Material seed (used for theme building) -->
+    <color name="seed">#E8A900</color>
+</resources>
